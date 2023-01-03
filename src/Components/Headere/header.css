@@ -1,0 +1,44 @@
+
+.Hcointainer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #eeeeee;
+    padding: 1rem 3rem;
+    align-items: center;
+  
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.buttonC{
+display: flex;
+align-items: center;
+gap: 1rem;
+}
+.btn1{
+padding: 1rem;
+background-color: #ff652f;
+color: white;
+font-weight: bolder;
+font-size: 1rem;
+box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.479);
+border: none;
+border-bottom: 0.5 black;
+border-radius: 3px;
+cursor: pointer;
+}
+.btn2{
+    padding: 1rem;
+    background-color: #5bc5a7;
+    color: white;
+    cursor: pointer;
+font-weight: bolder;
+font-size: 1rem;
+box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.479);
+border: none;
+border-bottom: 0.5 black;
+border-radius: 3px;
+}
+.title{
+    font-weight: bolder;
+    font-size: larger;
+    font-size: 1.8rem;
+}
