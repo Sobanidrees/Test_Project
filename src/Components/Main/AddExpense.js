@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./addExpence.css";
-import log from "/home/m/Desktop/Final-react/src/Components/Main/log.png";
+import log from "src/Components/Main/log.png";
 export default function AddExpense(props) {
 
   const [description, setDescription] = useState();
