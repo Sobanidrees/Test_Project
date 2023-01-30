@@ -1,5 +1,5 @@
 import React from "react";
-
+import x from './xxx.png';
 import "./Aleart.css";
 export default function Aleart(props) {
   const onXhandler = () => {
@@ -12,9 +12,9 @@ export default function Aleart(props) {
       <div className="CointainerPerson">
         <div className="upper">
           <h3 className="Addanexpense">Error Alert</h3>
-          <button className="X" onClick={onXhandler}>
-            x
-          </button>
+          <img className="Xx" src={x} alt="x" onClick={onXhandler}/>
+          
+         
         </div>
         <div className="wrap">
           <div className="eer">X</div>

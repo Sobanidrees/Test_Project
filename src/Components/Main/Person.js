@@ -21,7 +21,7 @@ export default function Person(props) {
 
   useEffect(() => {
     if (name !== "" && email !== "" && order !== 0 && pay !== 0) {
-      props.personHandler({ id:props.id,name: name, eamil: email, order: order, pay: pay });
+      props.personHandler({ id:props.id,name: name, eamil: email, order: order, pay: pay,status:pay-order });
     }
   }, [name, email, order, pay]);
 

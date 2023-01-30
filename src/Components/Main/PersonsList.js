@@ -52,7 +52,7 @@ export default function PersonsList(props) {
     let order = Allorders;
     var letters = /^[a-zA-Z_ ]*$/.test(props.checkValidity.name);
     if (counter === props.PersonsList.length - 1) {
-      if (Object.keys(props.checkValidity).length === 5) {
+      if (Object.keys(props.checkValidity).length === 6) {
         if (
           counter < props.PersonsList.length &&
           props.checkValidity.name.length > 2 &&
@@ -131,7 +131,7 @@ export default function PersonsList(props) {
   const onNexthandler = () => {
     let order = Allorders;
     var letters = /^[a-zA-Z_ ]*$/.test(props.checkValidity.name);
-    if (Object.keys(props.checkValidity).length === 5) {
+    if (Object.keys(props.checkValidity).length === 6) {
       if (
         counter < props.PersonsList.length - 1 &&
         props.checkValidity.name.length > 2 &&

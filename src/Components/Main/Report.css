@@ -8,7 +8,7 @@
     background-color: white;
     gap: 2rem;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    max-height: 30rem;
+    max-height: 32rem;
     overflow-y: scroll;
     overflow-x: hidden;
     
@@ -39,7 +39,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 5rem;
 
     }
     .head{
@@ -114,4 +113,22 @@ align-items: center;
     display: flex;
     flex-direction: column;
     gap: 1rem;
+}
+.download{
+    padding: 1rem;
+    background-color: #ff652f;
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.479);
+    border: none;
+    border-bottom: 0.5 black;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 10rem;
+    align-self: flex-end;
+    margin-right: 3rem;
+}
+.download:hover{
+    font-size: 1.2rem;
 }
