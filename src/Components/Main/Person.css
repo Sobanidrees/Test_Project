@@ -1,0 +1,24 @@
+.CointainerPreson{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    background-color: white;
+    align-self: center;
+    gap: 1rem;
+    }
+.CointAll{
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+.labell{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.ALL{
+    padding: .3rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.548);
+    font-size: 1.2rem;
+}

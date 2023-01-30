@@ -1,0 +1,15 @@
+.NP{
+display: flex;
+gap: .5rem;
+
+}
+.CS{
+display: flex;
+gap: .5rem;
+
+}
+.btttonsS{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}

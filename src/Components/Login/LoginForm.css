@@ -1,0 +1,78 @@
+.Cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px;
+    padding: 2rem ;
+    background-color: rgba(245,246,246,255);
+
+}
+.LFCointainer{
+
+display: flex;
+padding: 3rem 5rem;
+flex-direction: column;
+gap: 2rem;
+background-color: white;
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.log{
+    font-size: 3rem;
+}
+.Label{
+
+display: flex;
+flex-direction: column;
+gap: .5rem;
+}
+.label{
+    font-size: 1.4rem;
+}
+
+.inp{
+
+height: 2.5rem;
+width: 27rem;
+border: 1px solid lightgray;
+padding: 0.5rem 0.5rem;
+}
+
+
+.forgot{
+
+    align-self: center;
+    color:  #ff652f;
+    font-size: 1.4rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.forgot:hover{
+
+
+    font-size: 1.6rem;
+ 
+}
+.login{
+    cursor: pointer;
+    width: 27rem;
+    padding: .6rem;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #ff652f;
+    border: none;
+    border-radius: 3px;
+    
+}
+.error{
+    color: red;
+}
+.Disable{
+    cursor: no-drop;
+    width: 27rem;
+    padding: .6rem;
+    font-size: 1.5rem;
+    color: white;
+    background-color:gray;
+    border: none;
+    border-radius: 3px;
+}
